@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <%= csrf_meta_tag() %>
+    <meta name="csrf-token" content={csrf_token_value()}>
+    <meta name="ch-name" content={FigmexWeb.RoomChannel.name()}>
+    <%= live_title_tag assigns[:page_title] || "Figmex" %>
+    <meta name="title" content="Figmex">
+    <meta name="description" content="An Elixir-based distributed Figma clone.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://figmex.nathanwillson.com/">
+    <meta property="og:title" content="Figmex">
+    <meta property="og:description" content="An Elixir-based distributed Figma clone.">
+    <meta property="og:image" content="https://figmex.nathanwillson.com/images/banner.png">
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://gems.nathanwillson.com/">
+    <meta property="twitter:title" content="GEMS: Music Sequencer">
+    <meta property="twitter:description" content="An Elixir-based distributed Figma clone.">
+    <meta property="twitter:image" content="https://figmex.nathanwillson.com/images/banner.png">
+    <link phx-track-static rel="stylesheet" href={Routes.static_path(@conn, "/assets/app.css")}/>
+    <script phx-track-static type="text/javascript" src={Routes.static_path(@conn, "/assets/app.js")} defer></script>
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/images/favicon/site.webmanifest">
+  </head>
+  <body id="app">
+    <header>
+    </header>
+    <%= @inner_content %>
+  </body>
+</html>

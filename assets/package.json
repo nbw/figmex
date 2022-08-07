@@ -1,0 +1,15 @@
+{
+  "name": "figmex",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nathan Willson (https://nathanwillson.com/)",
+  "license": "ISC",
+  "dependencies": {
+    "fabric": "^5.2.1",
+    "uuid": "^8.3.2"
+  }
+}

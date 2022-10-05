@@ -8,6 +8,10 @@ Try it here:
 
 https://figmex.nathanwillson.com
 
+# About
+
+[Read the blog post](https://nathanwillson.com/blog/posts/2022-09-03-figmex/)
+
 # Usage
 
 If you'd like to use Figmex locally, you'll need to install Elixir. I'd suggest using asdf for that.

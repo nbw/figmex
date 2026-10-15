@@ -10,7 +10,8 @@ https://figmex.nathanwillson.com
 
 # About
 
-[Read the blog post](https://nathanwillson.com/blog/posts/2022-09-03-figmex/)
+[Read the blog post](https://blog.nathanwillson.com/figmex-making-figma-with-elixir/)
+
 
 # Usage
 
